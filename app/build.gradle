@@ -32,6 +32,10 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
 
+    //To fix version mismatch (from the appcompat above)
+    implementation 'com.android.support:exifinterface:27.1.1'
+    implementation 'com.android.support:animated-vector-drawable:27.1.1'
+
     //RecyclerView
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     //Butterknife for view bindings
