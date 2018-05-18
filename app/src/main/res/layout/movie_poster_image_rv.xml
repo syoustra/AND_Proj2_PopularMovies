@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ PROJECT LICENSE:
+  ~
+  ~ This project has been completed by Stephanie Youstra as part of the Udacity Android Developer Nanodegree.
+  ~ Feel free to view this as a reference point, but remember Udacity's Honor Code requiring that submissions be original work. Any liability for the consequences of plagiarism lies solely with the "borrower".
+  ~
+  ~ Copyright (c) 2018 ~ Stephanie Youstra.
+  -->
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/poster_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="4dp"
+    ></android.support.v7.widget.CardView>
+
+
+<!--
+    /**
+     * DEFAULT IMAGE COMES FROM:
+     * https://www.flickr.com/photos/41002268@N03/4654483579;
+     * Photo Taken 5/30/2010;
+     * Creative Commons Attribution 2.0 Generic
+     * Text added via addtext.com
+     */
+-->
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/movie_item_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/poster_card_view"-->
+        <!--android:layout_width="344dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--tools:layout_editor_absoluteY="40dp" />-->
+<!--</android.support.constraint.ConstraintLayout>-->

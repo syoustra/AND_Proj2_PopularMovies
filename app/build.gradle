@@ -38,6 +38,9 @@ dependencies {
 
     //RecyclerView
     implementation 'com.android.support:recyclerview-v7:27.1.1'
+    //CardView
+    implementation 'com.android.support:cardview-v7:27.1.1'
+
     //Butterknife for view bindings
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
