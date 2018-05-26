@@ -10,13 +10,36 @@
 package com.syoustra.popularmovies;
 
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
 }
+
+
+
+
+
+
+
+
+
+//
+//import android.support.v7.app.AppCompatActivity;
+//import android.os.Bundle;
+//import android.support.v7.widget.RecyclerView;
+//
+//import java.util.List;
+//
+//public class MainActivity extends AppCompatActivity {
+//
+//    private RecyclerView recyclerView;
+//    private List<Movie> movieList;
+//    private Adapter adapter;
+//
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//    }
+//}
