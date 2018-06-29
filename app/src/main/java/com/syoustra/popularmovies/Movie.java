@@ -13,65 +13,65 @@ package com.syoustra.popularmovies;
 
 
 
-
-public class Movie {
-
-    private String title;
-    private String thumbnail;
-    private String summary;
-    private double rating;
-    private String releaseDate;
-
-
-    public Movie() {
-
-    }
-
-    public Movie(String title, String thumbnail, String summary, double rating, String releaseDate) {
-        this.title = title;
-        this.thumbnail = thumbnail;
-        this.summary = summary;
-        this.rating = rating;
-        this.releaseDate = releaseDate;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getThumbnail() {
-        return thumbnail;
-    }
-
-    public void setThumbnail(String thumbnail) {
-        this.thumbnail = thumbnail;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public double getRating() {
-        return rating;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
-    }
-
-    public String getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(String releaseDate) {
-        this.releaseDate = releaseDate;
-    }
-}
+//
+//public class Movie {
+//
+//    private String title;
+//    private String thumbnail;
+//    private String summary;
+//    private double rating;
+//    private String releaseDate;
+//
+//
+//    public Movie() {
+//
+//    }
+//
+//    public Movie(String title, String thumbnail, String summary, double rating, String releaseDate) {
+//        this.title = title;
+//        this.thumbnail = thumbnail;
+//        this.summary = summary;
+//        this.rating = rating;
+//        this.releaseDate = releaseDate;
+//    }
+//
+//    public String getTitle() {
+//        return title;
+//    }
+//
+//    public void setTitle(String title) {
+//        this.title = title;
+//    }
+//
+//    public String getThumbnail() {
+//        return thumbnail;
+//    }
+//
+//    public void setThumbnail(String thumbnail) {
+//        this.thumbnail = thumbnail;
+//    }
+//
+//    public String getSummary() {
+//        return summary;
+//    }
+//
+//    public void setSummary(String summary) {
+//        this.summary = summary;
+//    }
+//
+//    public double getRating() {
+//        return rating;
+//    }
+//
+//    public void setRating(double rating) {
+//        this.rating = rating;
+//    }
+//
+//    public String getReleaseDate() {
+//        return releaseDate;
+//    }
+//
+//    public void setReleaseDate(String releaseDate) {
+//        this.releaseDate = releaseDate;
+//    }
+//}
