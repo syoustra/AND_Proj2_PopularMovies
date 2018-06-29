@@ -50,6 +50,7 @@ public class MovieResults {
         private double voteAverage;
         @SerializedName("overview")
         private String overview;
+        //TODO DECIDE ABOUT GENRES
 //        @SerializedName("genre_ids")
 //        private List<GenreIds> genreIdsList;
 

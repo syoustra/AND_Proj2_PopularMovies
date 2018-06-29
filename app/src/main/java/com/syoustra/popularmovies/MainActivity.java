@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /*TODO *************************** Pick up tomorrow with "Bind TextInput View" from Curriculum Notes .....
+        TODO ..... BUT .... first do GridView adapter so onClick can be set
+         */
     }
 
     @Override
@@ -38,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         tmdbBaseUrl = "https://api.themoviedb.org/3";
         tmdbBaseUrlImages = "http://image.tmdb.org/t/p/w185";
+        //TODO ****** HIDE API KEY AND REPLACE **** BELOW ACCORDINGLY**********
         tmdbApiKey = "***************************";
 
         tmdbApi = getTmdbRetrofit().create(TmdbApi.class);

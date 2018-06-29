@@ -25,9 +25,9 @@ public interface TmdbApi {
 
     //TODO Finish the api calls for the trailers and reviews
 //    @GET("/movie/{id}/videos")
-//    Call<     > getVideos (@Path("id") int id, @Query("api_key") String apiKey);
+//    Call<SingleMovie> getVideos (@Path("id") int id, @Query("api_key") String apiKey);
 //
 //    @GET("/movie/{id}/reviews")
-//    Call<     > getReviews (@Path("id") int id, @Query("api_key") String apiKey);
+//    Call<SingleMovie> getReviews (@Path("id") int id, @Query("api_key") String apiKey);
 
 }
