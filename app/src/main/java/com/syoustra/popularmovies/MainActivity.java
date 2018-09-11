@@ -11,8 +11,11 @@ package com.syoustra.popularmovies;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.GridView;
 
 import com.syoustra.popularmovies.api_calls.TmdbApi;
+
+import java.util.List;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -30,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        GridView gridView = (GridView)findViewById(R.id.gridview);
+        PosterGridViewAdapter posterGridViewAdapter = new PosterGridViewAdapter(this, //TODO FILL IN WITH WHATEVER GOES IN HERE);
 
         /*TODO *************************** Pick up tomorrow with "Bind TextInput View" from Curriculum Notes .....
         TODO ..... BUT .... first do GridView adapter so onClick can be set

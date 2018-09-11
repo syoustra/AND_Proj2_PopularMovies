@@ -13,7 +13,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class MovieResults {
+public class Movie {
     /*For the Movie Poster display on the main screen, the data needed from the API is:
     results[ ]
         id

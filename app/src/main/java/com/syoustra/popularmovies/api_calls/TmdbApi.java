@@ -12,16 +12,15 @@ package com.syoustra.popularmovies.api_calls;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface TmdbApi {
 
     @GET("/movie/popular")
-    Call<MovieResults> getPopularMovies(@Query("api_key") String apiKey);
+    Call<Movie> getPopularMovies(@Query("api_key") String apiKey);
 
     @GET("/movie/top")
-    Call<MovieResults> getTopMovies(@Query("api_key") String apiKey);
+    Call<Movie> getTopMovies(@Query("api_key") String apiKey);
 
     //TODO Finish the api calls for the trailers and reviews
 //    @GET("/movie/{id}/videos")
